@@ -1,0 +1,44 @@
+@import "@jaimemartinmartin15/jei-devkit-angular-shared/styles/colors";
+
+:host {
+  display: block;
+}
+
+.title {
+  text-align: center;
+  margin: 20px 10px 10px 10px;
+}
+
+.primary-key {
+  text-decoration: underline;
+}
+
+.exercise-block {
+  padding: 15px;
+  margin: 0 0 20px 0;
+  background-color: $color-background-panel;
+  border: 2px solid $color-orange;
+  border-radius: 5px;
+
+  .exercise-title {
+    font-size: 1.3rem;
+    margin: 0;
+  }
+
+  .exercise-statement {
+    margin: 10px 0 20px 0;
+  }
+
+  [appCollapsibleOpenAction],
+  [appCollapsibleCloseAction] {
+    color: $color-orange;
+  }
+
+  app-terminal-code {
+    margin-bottom: 10px;
+  }
+}
+
+.exercise-73 {
+  overflow-x: auto;
+}

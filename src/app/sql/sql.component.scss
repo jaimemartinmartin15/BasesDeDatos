@@ -1,0 +1,68 @@
+@import "@jaimemartinmartin15/jei-devkit-angular-shared/styles/colors";
+
+:host {
+    display: block;
+}
+
+.title {
+    text-align: center;
+    margin: 20px 10px 10px 10px;
+}
+
+.bbdd-scheme-image {
+    width: 100%;
+}
+
+[appCollapsibleToggleAction] {
+    background-color: $color-background-panel;
+    border: 2px solid $color-orange;
+    border-radius: 5px;
+    padding: 7px 15px;
+    margin: 5px 0;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 30px;
+
+    thead th {
+        text-align: center;
+    }
+
+    th,
+    td {
+        padding: 3px 10px;
+    }
+
+    th {
+        width: 30%;
+        text-align: end;
+        vertical-align: top;
+    }
+
+    td {
+        width: 70%;
+        text-align: start;
+    }
+}
+
+.combination-table-image,
+.inner-join-image,
+.left-join-image,
+.right-join-image,
+.full-join-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+@media (max-width: 575px) {
+    .combination-table-image,
+    .inner-join-image,
+    .left-join-image,
+    .right-join-image,
+    .full-join-image {
+        width: 100%;
+    }
+}
