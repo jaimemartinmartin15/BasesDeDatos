@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.0.3
+
+Fix preview images for open graph.
+
 ## 1.0.2
 
 Make sql component lazy loaded even when route is sql/ejercicios.
