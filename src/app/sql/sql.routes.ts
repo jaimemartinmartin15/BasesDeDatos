@@ -1,5 +1,4 @@
 import { Routes } from '@angular/router';
-import { SqlComponent } from './sql.component';
 
 export const SQL_ROUTES: Routes = [
   {
@@ -8,7 +7,7 @@ export const SQL_ROUTES: Routes = [
   },
   {
     path: '',
-    component: SqlComponent,
+    loadComponent: () => import('./sql.component').then((m) => m.SqlComponent),
     title: 'Lenguaje SQL',
     data: {
       metaTags: {
