@@ -53,7 +53,12 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              "src/assets/favicons"
+              "src/assets/favicons",
+              {
+                "glob": "**/*",
+                "input": "src/app/sql/assets",
+                "output": "/assets/sql/"
+              }
             ],
             "styles": [
               "src/styles.scss"
