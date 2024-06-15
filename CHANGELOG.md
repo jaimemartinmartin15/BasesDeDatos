@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.0.2
+
+Make sql component lazy loaded even when route is sql/ejercicios.
+
 ## 1.0.1
 
 Fix download scripts.zip in sql exercises page.
